@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>odps.mapred.reduce.class</name><value>com.aliyun.odps.examples.mr.WordCount$SumReducer</value></property>
+<property><name>odps.mapred.local.download.mode</name><value>AUTO</value></property>
+<property><name>odps.mapred.map.class</name><value>com.aliyun.odps.examples.mr.WordCount$TokenizerMapper</value></property>
+<property><name>odps.mapred.output.desc</name><value>[{"tblName":"wc_out","partSpec":{},"label":"__default__"}]</value></property>
+<property><name>odps.mapred.resources</name><value/></property>
+<property><name>odps.mapred.mapoutput.key.schema</name><value>word:STRING</value></property>
+<property><name>odps.mapred.combine.class</name><value>com.aliyun.odps.examples.mr.WordCount$SumCombiner</value></property>
+<property><name>odps.mapred.job.name</name><value>mr_20171130113350_027_14200</value></property>
+<property><name>odps.mapred.mapoutput.value.schema</name><value>count:BIGINT</value></property>
+<property><name>odps.mapred.local.temp.retain</name><value>true</value></property>
+<property><name>odps.mapred.input.desc</name><value>[{"tblName":"wc_in1","partSpec":{},"cols":["col2","col3"],"label":"__default__"},{"tblName":"wc_in2","partSpec":{"p1":"2","p2":"1"},"label":"__default__"}]</value></property>
+</configuration>

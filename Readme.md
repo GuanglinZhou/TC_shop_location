@@ -1,10 +1,5 @@
-### Readme
 
-
-
-----------
-
-**TC_shop_location商场中精确定位用户所在商铺比赛**——[比赛官网](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100150.711.5.16422009ClSUJf&raceId=231620)
+** TC_shop_location商场中精确定位用户所在商铺比赛**——[比赛官网](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100150.711.5.16422009ClSUJf&raceId=231620)
 
 比赛简介：
 - 参赛者需要对我们提供的2017年8月份（复赛为2017年7-8月）数据进行店铺、用户、WIFI等各个维度进行数据挖掘和特征创建，并自行创建训练数据中的负样本，进行合适的机器学习训练。在我们提供2017年9月份的数据中，根据当时用户所处的位置和WIFI等环境信息，通过您的算法或模型准确的判断出他当前所在的店铺。
@@ -32,6 +27,8 @@
 初赛相关数据：链接:https://pan.baidu.com/s/1jJqOkVO  密码:zmhm
 
 #### 复赛
+复赛依然沿用的是第一赛季的思路，只是复赛使用的是阿里的MaxCompute平台，怎么说呢，感觉作比赛的都是给人试平台找bug的，阿里的MaxCompute平台主要分为，数据预处理（好像叫做PAI）和机器学习平台，数据预处理可以在线下使用《阿里云odpsSql手册.pdf》中定义的UDF和UDTF函数，将Java程序达成jar包，上传到MaxCompute平台对数据做处理，也可以直接使用手册中的SQL语句在MaxCompute中对数据预处理。 
+数据预处理后在机器学习平台中选择合适的模型，图形化的对数据训练和预测。
 
 
 ----------
