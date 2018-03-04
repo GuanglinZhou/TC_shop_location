@@ -1,5 +1,5 @@
 
-** TC_shop_location商场中精确定位用户所在商铺比赛**——[比赛官网](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100150.711.5.16422009ClSUJf&raceId=231620)
+**TC_shop_location商场中精确定位用户所在商铺比赛**——[比赛官网](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100150.711.5.16422009ClSUJf&raceId=231620)
 
 比赛简介：
 - 参赛者需要对我们提供的2017年8月份（复赛为2017年7-8月）数据进行店铺、用户、WIFI等各个维度进行数据挖掘和特征创建，并自行创建训练数据中的负样本，进行合适的机器学习训练。在我们提供2017年9月份的数据中，根据当时用户所处的位置和WIFI等环境信息，通过您的算法或模型准确的判断出他当前所在的店铺。
